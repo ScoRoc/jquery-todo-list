@@ -6,6 +6,20 @@ form {
   margin-bottom: 10px;
 }
 
+.addButton {
+  font-size: 25px;
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  box-shadow: 0 0 3px;
+}
+
 #sortable {
   list-style-type: none;
   margin: 0;
