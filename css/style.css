@@ -1,0 +1,43 @@
+h1 {
+  color: blue;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+#sortable li .arrow {
+  position: absolute;
+  margin-left: -1.3em;
+}
+
+a {
+  cursor: pointer;
+  position: relative;
+  padding-left: 5.5em;
+}
+
+a .delete {
+  position: relative;
+  left: 10px;
+  top: -3px;
+  font-size: 8px;
+  font-family: sans-serif;
+}
