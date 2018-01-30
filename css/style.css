@@ -14,10 +14,12 @@ form {
   border-radius: 50%;
   outline: none;
   cursor: pointer;
+  transition: .2s;
 }
 
 .addButton:hover {
-  box-shadow: 0 0 3px;
+  box-shadow: 0 0 2px;
+  transform: scale(1.05);
 }
 
 #sortable {
@@ -55,3 +57,13 @@ a .delete {
   font-size: 8px;
   font-family: sans-serif;
 }
+
+/* #deleteItem {
+  color: red;
+  position: relative;
+  animation: offPage 1s 0 1 forwards;
+}
+
+@keyframes offPage {
+  100% {left: 50px;}
+} */

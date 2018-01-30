@@ -1,9 +1,5 @@
 var toDoList = $('.toDoList');
 
-toDoList.on("click", "a", function() {
-  $(this).parent().remove();
-});
-
 var addItem = function() {
   $('input:text:visible:first').focus();
   var userInput = $('#userInput');
@@ -36,4 +32,8 @@ $(document).ready(function() {
   var button = $('#button');
   $('#button').on('click', addItem)
   $('input:text:visible:first').focus();
+
+  toDoList.on("click", "a", function() {
+    $(this).parent().remove();
+  });
 });
